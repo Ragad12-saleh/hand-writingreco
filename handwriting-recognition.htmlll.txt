@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نظام فهم الكتابة اليدوية</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>نظام فهم الكتابة اليدوية من الكاميرا</h1>
+        <video id="video" width="640" height="480" autoplay></video>
+        <button id="captureButton">التقاط الصورة</button>
+        <canvas id="canvas" style="display:none;"></canvas>
+        <div id="output">
+            <h3>النص المعرف:</h3>
+            <p id="recognizedText">انتظر لتحليل النص...</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
